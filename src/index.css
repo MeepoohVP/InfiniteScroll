@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.showcard{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  width: 20%;
+  height: 312px;
+  background-color: bisque;
+  margin: 16px;
+  padding: 16px;
+  position: relative;
+  border-radius: 16px;
+}
+.description{
+  height: 80%;
+  background-color: azure;
+  font-size: 28px;
+  padding: 16px;
+}
+.topics{
+  padding: 8px;
+}
